@@ -13,7 +13,7 @@ import (
 	"sync"
 
 	_ "github.com/mattn/go-sqlite3"
-	"openFTP/internal/conn"
+	"openOMT/internal/conn"
 )
 
 const keyFile = "key.bin"

@@ -1,4 +1,4 @@
-module openFTP
+module openOMT
 
 go 1.22.0
 

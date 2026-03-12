@@ -6,7 +6,7 @@ import (
 	"io/fs"
 	"log"
 	"net/http"
-	"openFTP/internal/conn"
+	"openOMT/internal/conn"
 	"path/filepath"
 	"strings"
 )

@@ -3,7 +3,7 @@ package main
 import (
 	"flag"
 	"log"
-	"openFTP/internal/server"
+	"openOMT/internal/server"
 )
 
 func main() {

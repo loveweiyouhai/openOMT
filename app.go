@@ -10,8 +10,8 @@ import (
 	"runtime"
 	"strings"
 
-	"openFTP/internal/conn"
-	"openFTP/internal/store"
+	"openOMT/internal/conn"
+	"openOMT/internal/store"
 
 	wailsruntime "github.com/wailsapp/wails/v2/pkg/runtime"
 )
