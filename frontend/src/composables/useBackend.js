@@ -1,6 +1,6 @@
 import { ref, reactive } from 'vue'
 
-const Backend = window.go?.main?.App || window.go?.openFTP?.App
+const Backend = window.go?.main?.App || window.go?.openOMT?.App
 const isDesktop = !!Backend
 
 export function useBackend() {

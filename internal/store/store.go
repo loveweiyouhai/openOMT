@@ -44,7 +44,7 @@ func New(configDir string) (*Store, error) {
 		if err != nil {
 			dir = "."
 		}
-		configDir = filepath.Join(dir, "OpenFTP")
+		configDir = filepath.Join(dir, "openOMT")
 	}
 	if err := os.MkdirAll(configDir, 0700); err != nil {
 		return nil, err

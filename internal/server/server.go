@@ -131,7 +131,7 @@ func Run(addr string) error {
 	root, _ := fs.Sub(staticFS, "static")
 	http.Handle("/", http.FileServer(http.FS(root)))
 
-	log.Printf("OpenFTP 服务已启动: http://127.0.0.1%s\n", addr)
+	log.Printf("openOMT 服务已启动: http://127.0.0.1%s\n", addr)
 	return http.ListenAndServe(addr, nil)
 }
 
